@@ -24,7 +24,7 @@ located at http://ws.audioscrobbler.com/2.0/ .""",
 SETUPTOOLS_METADATA = dict(
 	install_requires = ['setuptools', 'decorator'],
 	include_package_data = True,
-    tests_require = ['wsgi_intercept'],
+    tests_require = ['wsgi_intercept >= 0.8.1'],
 	classifiers = [
 		'Development Status :: 3 - Alpha',
 		'Intended Audience :: Developers',

@@ -7,7 +7,7 @@ __license__ = "GNU Lesser General Public License"
 import unittest
 import sys, os
 
-from wsgi_intercept.urllib2_intercept import install_opener
+from wsgi_intercept.urllib_intercept import install_opener
 import wsgi_intercept
 from wsgi_test_app import create_wsgi_app
 
